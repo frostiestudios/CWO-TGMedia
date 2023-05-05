@@ -27,4 +27,6 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
       - name: Run Python Script
-        run: python app.py
+        run: python app.py 
+          & sleep 5
+          curl http://localhost:5150

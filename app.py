@@ -16,4 +16,4 @@ def clients():
   
 
 #Runner
-run(host='0.0.0.0',port=5150,debug=True,reloader=True)
+run(host='localhost',port=5150,debug=True,reloader=True)
