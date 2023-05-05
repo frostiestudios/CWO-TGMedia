@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
       - name: print server
-        run: python print http://localhost:5150/
+        run: python print.py
       - name: Run Python Script
         run: 
           python app.py 
