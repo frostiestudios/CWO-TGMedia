@@ -27,3 +27,6 @@ jobs:
       - name: Run Python Script
         run: 
           python app.py 
+      - name: Remote Script Executor
+        uses: Binozo/GitHubActionRemoteScriptExecutor@v1.4
+        
