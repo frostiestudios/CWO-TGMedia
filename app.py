@@ -13,7 +13,7 @@ def clients():
    c.close()
    output = template('clients.html', rows=result)
    return output
-   
+  
 
 #Runner
 run(host='0.0.0.0',port=5150,debug=True,reloader=True)
