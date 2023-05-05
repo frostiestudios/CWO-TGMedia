@@ -25,5 +25,4 @@ jobs:
       - name: Run Python Script
         run: 
           python app.py 
-          & sleep 5
-          curl http://localhost:5150
+          & curl http://localhost:5150
