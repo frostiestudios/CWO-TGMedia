@@ -1,4 +1,3 @@
 flask
 requests
 bottle
-sqlite3
