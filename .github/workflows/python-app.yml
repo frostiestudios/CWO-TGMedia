@@ -22,6 +22,8 @@ jobs:
           python-version: 3.11
       - name: Install Dependencies
         run: pip install -r requirements.txt
+      - name: print server
+        run: python print http://localhost:5150/
       - name: Run Python Script
         run: 
           python app.py 
